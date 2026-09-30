@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Zemora Café — café, sabores e momentos em Tucumã, Pará.">
+
+    <title>Zemora Café — Um café para ficar.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+
+        <a href="#inicio" class="brand">
+            <img src="assets/logo.png" alt="Zemora Café">
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Início</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#essencia">Nossa essência</a>
+            <a href="#ambiente">Ambiente</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <a href="#cardapio" class="header-button">
+            Ver cardápio
+            <span>→</span>
+        </a>
+
+        <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-image">
+                <img src="assets/hero.jpg" alt="Zemora Café">
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <span class="eyebrow">CAFÉ • DOCES • MOMENTOS</span>
+
+                <h1>
+                    Um café<br>
+                    <em>para ficar.</em>
+                </h1>
+
+                <p>
+                    Sabores especiais, bebidas feitas com carinho
+                    e um ambiente pensado para transformar pequenos
+                    momentos em boas memórias.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#cardapio" class="button button-light">
+                        Conheça o cardápio
+                        <span>→</span>
+                    </a>
+
+                    <a href="#essencia" class="text-link">
+                        Conheça a Zemora
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+                <span>Tucumã — Pará</span>
+                <span>Desde 2025</span>
+            </div>
+
+        </section>
+
+        <section class="essence section" id="essencia">
+
+            <div class="section-top">
+                <span class="eyebrow dark">NOSSA ESSÊNCIA</span>
+                <span class="section-number">01</span>
+            </div>
+
+            <div class="essence-grid">
+
+                <div class="essence-title">
+                    <h2>
+                        Mais do que café.
+                        <em>Um momento seu.</em>
+                    </h2>
+                </div>
+
+                <div class="essence-copy">
+
+                    <p>
+                        Na Zemora, acreditamos que uma boa pausa pode
+                        mudar completamente o seu dia.
+                    </p>
+
+                    <p>
+                        Por isso, cuidamos de cada detalhe: dos sabores
+                        escolhidos ao ambiente onde cada encontro acontece.
+                    </p>
+
+                    <a href="#ambiente" class="arrow-link">
+                        Descubra a Zemora
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="featured section">
+
+            <div class="featured-image">
+                <img src="assets/mocaccino.jpg" alt="Mocaccino Zemora" loading="lazy">
+            </div>
+
+            <div class="featured-content">
+
+                <span class="eyebrow dark">O FAVORITO DA CASA</span>
+
+                <h2>
+                    Mocaccino
+                    <em>Zemora</em>
+                </h2>
+
+                <p>
+                    Café, chocolate e cremosidade em uma combinação
+                    feita para transformar uma pausa comum em um momento
+                    especial.
+                </p>
+
+                <div class="featured-footer">
+                    <span class="price">R$ —</span>
+
+                    <a href="#cardapio" class="arrow-link">
+                        Ver opções
+                        <span>→</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="menu section" id="cardapio">
+
+            <div class="section-top">
+                <div>
+                    <span class="eyebrow dark">NOSSO CARDÁPIO</span>
+
+                    <h2 class="section-heading">
+                        Feito para <em>você.</em>
+                    </h2>
+                </div>
+
+                <span class="section-number">02</span>
+            </div>
+
+            <div class="menu-intro">
+                Escolha seu favorito ou descubra algo novo.
+            </div>
+
+            <div class="filters">
+
+                <button class="filter active" data-filter="all">
+                    Todos
+                </button>
+
+                <button class="filter" data-filter="bebidas">
+                    Bebidas
+                </button>
+
+                <button class="filter" data-filter="comidas">
+                    Comidas
+                </button>
+
+                <button class="filter" data-filter="doces">
+                    Doces
+                </button>
+
+            </div>
+
+            <div class="menu-grid">
+
+                <article class="menu-card" data-category="comidas">
+
+                    <div class="menu-card-image">
+                        <img src="assets/pao-de-queijo.jpg" alt="Pão de queijo" loading="lazy">
+                    </div>
+
+                    <div class="menu-card-info">
+
+                        <span class="card-category">COMIDA</span>
+
+                        <div class="card-title-row">
+                            <h3>Pão de queijo</h3>
+                            <span>R$ —</span>
+                        </div>
+
+                        <p>
+                            Quentinho, dourado e cheio de sabor.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="menu-card" data-category="bebidas">
+
+                    <div class="menu-card-image">
+                        <img src="assets/mocaccino.jpg" alt="Mocaccino" loading="lazy">
+                    </div>
+
+                    <div class="menu-card-info">
+
+                        <span class="card-category">BEBIDA</span>
+
+                        <div class="card-title-row">
+                            <h3>Mocaccino</h3>
+                            <span>R$ —</span>
+                        </div>
+
+                        <p>
+                            Café, chocolate e textura cremosa.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="menu-card" data-category="bebidas">
+
+                    <div class="menu-card-image">
+                        <img src="assets/soda-italiana.jpg" alt="Soda italiana" loading="lazy">
+                    </div>
+
+                    <div class="menu-card-info">
+
+                        <span class="card-category">BEBIDA</span>
+
+                        <div class="card-title-row">
+                            <h3>Soda italiana</h3>
+                            <span>R$ —</span>
+                        </div>
+
+                        <p>
+                            Morango, kiwi, maracujá ou maçã.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="menu-card" data-category="bebidas">
+
+                    <div class="menu-card-image">
+                        <img src="assets/frape.jpg" alt="Frapê" loading="lazy">
+                    </div>
+
+                    <div class="menu-card-info">
+
+                        <span class="card-category">BEBIDA</span>
+
+                        <div class="card-title-row">
+                            <h3>Frapê</h3>
+                            <span>R$ —</span>
+                        </div>
+
+                        <p>
+                            Cremoso e disponível em vários sabores.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="menu-card" data-category="doces">
+
+                    <div class="menu-card-image">
+                        <img src="assets/croissant.jpg" alt="Croissant" loading="lazy">
+                    </div>
+
+                    <div class="menu-card-info">
+
+                        <span class="card-category">DOCE</span>
+
+                        <div class="card-title-row">
+                            <h3>Croissant</h3>
+                            <span>R$ —</span>
+                        </div>
+
+                        <p>
+                            Folhado, dourado e delicadamente macio.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="menu-card" data-category="doces">
+
+                    <div class="menu-card-image">
+                        <img src="assets/waflles.jpg" alt="Waffles" loading="lazy">
+                    </div>
+
+                    <div class="menu-card-info">
+
+                        <span class="card-category">DOCE</span>
+
+                        <div class="card-title-row">
+                            <h3>Waffles</h3>
+                            <span>R$ —</span>
+                        </div>
+
+                        <p>
+                            Crocantes por fora e feitos na hora.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="flavors">
+
+            <div class="flavors-image">
+                <img src="assets/detail.jpg" alt="Detalhe de uma bebida Zemora" loading="lazy">
+            </div>
+
+            <div class="flavors-content">
+
+                <span class="eyebrow">PARA TODOS OS GOSTOS</span>
+
+                <h2>
+                    Seu sabor.
+                    <em>Seu momento.</em>
+                </h2>
+
+                <p>
+                    Dos clássicos aos sabores mais marcantes,
+                    escolha a combinação que combina com você.
+                </p>
+
+                <div class="flavor-tags">
+                    <span>Morango</span>
+                    <span>Kiwi</span>
+                    <span>Maracujá</span>
+                    <span>Maçã</span>
+                    <span>Chocolate</span>
+                    <span>Pistache</span>
+                    <span>Amendoim</span>
+                    <span>Doce de leite</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="environment section" id="ambiente">
+
+            <div class="section-top">
+
+                <div>
+                    <span class="eyebrow dark">O AMBIENTE</span>
+
+                    <h2 class="section-heading">
+                        Chegue pelo café.
+                        <em>Fique pelo ambiente.</em>
+                    </h2>
+                </div>
+
+                <span class="section-number">03</span>
+
+            </div>
+
+            <div class="environment-grid">
+
+                <div class="environment-copy">
+
+                    <p>
+                        Um espaço acolhedor para conversar, encontrar
+                        alguém especial, trabalhar ou simplesmente
+                        aproveitar alguns minutos do seu dia.
+                    </p>
+
+                    <div class="environment-features">
+
+                        <div>
+                            <span>01</span>
+                            <strong>Ambiente acolhedor</strong>
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            <strong>Bebidas especiais</strong>
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            <strong>Produtos artesanais</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="environment-image">
+                    <img src="assets/ambiente.jpg" alt="Ambiente da Zemora Café" loading="lazy">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="gallery">
+
+            <div class="gallery-item gallery-large">
+                <img src="assets/gallery-1.jpg" alt="Zemora Café" loading="lazy">
+            </div>
+
+            <div class="gallery-column">
+
+                <div class="gallery-item">
+                    <img src="assets/gallery-2.jpg" alt="Ambiente Zemora Café" loading="lazy">
+                </div>
+
+                <div class="gallery-quote">
+                    <span>“</span>
+                    <p>
+                        Alguns momentos merecem
+                        um bom café.
+                    </p>
+                    <small>ZEMORA CAFÉ</small>
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/gallery-3.jpg" alt="Detalhes da Zemora Café" loading="lazy">
+            </div>
+
+        </section>
+
+        <section class="visit section" id="contato">
+
+            <div class="visit-top">
+                <span class="eyebrow dark">VENHA NOS VISITAR</span>
+                <span class="section-number">04</span>
+            </div>
+
+            <div class="visit-content">
+
+                <h2>
+                    Seu próximo café
+                    <em>está aqui.</em>
+                </h2>
+
+                <p>
+                    Faça uma pausa. Sente-se. Aproveite.
+                </p>
+
+                <a
+                    href="https://www.instagram.com/zemoracafe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button-dark"
+                >
+                    @zemoracafe
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+            <div class="visit-details">
+
+                <div>
+                    <span>ENDEREÇO</span>
+                    <strong>
+                        Av. Belém, 1240<br>
+                        Tucumã — PA
+                    </strong>
+                </div>
+
+                <div>
+                    <span>HORÁRIO</span>
+                    <strong>
+                        Seg — Sex • 13h — 19h30<br>
+                        Sáb • 08h — 19h30
+                    </strong>
+                </div>
+
+                <div>
+                    <span>CONTATO</span>
+                    <strong>@zemoracafe</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-brand">
+            <img src="assets/logo.png" alt="Zemora Café">
+            <p>
+                Café, sabores e momentos.
+            </p>
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#inicio">Início</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#essencia">Nossa essência</a>
+            <a href="#ambiente">Ambiente</a>
+            <a href="#contato">Contato</a>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>© 2026 Zemora Café</span>
+
+            <a
+                href="https://www.instagram.com/zemoracafe/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Instagram ↗
+            </a>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
